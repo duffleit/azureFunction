@@ -6,4 +6,6 @@ module.exports = function(context, req) {
         body: "hello" + name,
         status: 400
     }
+
+    context.done();
 }
